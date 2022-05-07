@@ -52,3 +52,11 @@ Code: const myPizza = new Pizza("medium", ["cheese", "pineapple"]);
       myPizza.changeSize("small")
       myPizza.size;
 Expected Output: "small"
+
+Describe: changeToppings()
+
+Test: "It should change toppings for pizza"  
+Code:const myPizza = new Pizza("medium", ["cheese", "pineapple"]);
+      myPizza.changeToppings(["pepperoni"])
+      myPizza.toppings;
+Expected Output:["pepperoni"]

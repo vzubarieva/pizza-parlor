@@ -36,5 +36,11 @@ Pizza.prototype.getCost = function () {
 
 
 Pizza.prototype.changeSize = function (size) {
+  console.log(`[pizza][changeSize] changing pizza size from ${this.size} to ${size}`);
   this.size = size;
+}
+
+Pizza.prototype.changeToppings = function (toppings) {
+  console.log(`[pizza][changeSize] changing pizza toppings from ${this.toppings} to ${toppings}`);
+  this.toppings = toppings;
 }
