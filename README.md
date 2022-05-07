@@ -40,7 +40,15 @@ Expected Output: Pizza { size: "medium", toppings: ["anchovies", "pineapple"] }
 
 Describe: getCost()
 
-Test:" It should return cost of medium size pizza with cheese and pineapple toppings"
+Test: "It should return cost of medium size pizza with cheese and pineapple toppings"
 Code: const myPizza = new Pizza("medium", ["cheese", "pineapple"]);
       myPizza.getCost();
 Expected Output: 11
+
+Describe: changeSize()
+
+Test: "It should change size of the pizza"
+Code: const myPizza = new Pizza("medium", ["cheese", "pineapple"]);
+      myPizza.changeSize("small")
+      myPizza.size;
+Expected Output: "small"

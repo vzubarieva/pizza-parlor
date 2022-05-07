@@ -31,12 +31,10 @@ Pizza.prototype.getCost = function () {
     }
     console.log(`[pizza][getCost] with ${topping}, adding XXX to cost, total cost ${result}`);
   })
-
-
   return result;
 }
 
 
-Pizza.prototype.changeSize = function () {
-
+Pizza.prototype.changeSize = function (size) {
+  this.size = size;
 }
