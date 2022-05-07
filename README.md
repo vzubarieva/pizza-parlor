@@ -37,3 +37,10 @@ Describe: Pizza()
 Test: "It should return a Pizza object with two properties for toppings and size"
 Code: const myPizza = new Pizza("medium", ["anchovies", "pineapple"]);
 Expected Output: Pizza { size: "medium", toppings: ["anchovies", "pineapple"] }
+
+Describe: getCost()
+
+Test:" It should return cost of medium size pizza with cheese and pineapple toppings"
+Code: const myPizza = new Pizza("medium", ["cheese", "pineapple"]);
+      myPizza.getCost();
+Expected Output: 11
