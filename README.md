@@ -4,7 +4,7 @@
 ## Description
 This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, pineapple, meatballs etc) and a size to order a pizza and see the final cost.
 
-[GitHub pages]()
+[GitHub pages](https://vzubarieva.github.io/pizza-parlor)
 ## Technologies Used
 
 * _HTML_
@@ -22,7 +22,6 @@ This is a website for a pizza company where a user can choose one or more indivi
 ## Known Bugs
 
 * No known bugs
-
 
 ## License
 
