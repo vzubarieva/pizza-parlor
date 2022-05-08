@@ -2,7 +2,7 @@
 
 #### By _**Viktoriia Zubarieva**_
 ## Description
-
+This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, pineapple, meatballs etc) and a size to order a pizza and see the final cost.
 
 [GitHub pages]()
 ## Technologies Used
