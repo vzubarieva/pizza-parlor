@@ -13,77 +13,84 @@
 
 <body>
   <div class="container">
-    <div class="intro">
-      <h1>Pizza Parlor</h1>
-      <h2>Create your own pizza by customizing size and delicious toppings!</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top" src="img/pizza.jpg" alt="pizza with mushrooms and cheese">
-          <div class="card-body">
-            <p class="card-text">Not real pizza</p>
+    <div class="card text-center parlor-card">
+      <h1 class="card-header">
+        Pizza Parlor
+      </h1>
+      <div class="card-body">
+        <h2 class="card-title">Create your own pizza by customizing size and delicious toppings!</h2>
+        <p class="card-text"></p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/pizza.jpg" alt="pizza with mushrooms and cheese">
+              <div class="card-body">
+                <p class="card-text">Example of prepared pizza</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4>Customize the size</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" value="small" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Small
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" value="medium" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Medium
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" value="large" id="flexRadioDefault3">
+              <label class="form-check-label" for="flexRadioDefault3">
+                Large
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-left toppings-section">
+            <h4>What toppings would you like?</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="pizzaToppings" value="cheese" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Cheese
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="pizzaToppings" value="pepperoni"
+                id="flexCheckChecked1">
+              <label class="form-check-label" for="flexCheckChecked1">
+                Pepperoni
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="pizzaToppings" value="pineapple"
+                id="flexCheckChecked2">
+              <label class="form-check-label" for="flexCheckChecked2">
+                Pineapple
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="pizzaToppings" value="meatballs"
+                id="flexCheckChecked3">
+              <label class="form-check-label" for="flexCheckChecked3">
+                Meatballs
+              </label>
+            </div>
           </div>
         </div>
+        <button type="button" id="getCostButton" class="btn btn-primary btn-lg">See the cost</button>
       </div>
-      <div class="col-md-4">
-        <h3>Customize the size</h3>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Small
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-          <label class="form-check-label" for="flexRadioDefault2">
-            Medium
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-          <label class="form-check-label" for="flexRadioDefault2">
-            Large
-          </label>
-        </div>
+      <div class="card-footer">
+        <h3>Cost: <span id="cost"></span></h3>
       </div>
-
-      <div class="col-md-4">
-        <h3>What toppings would you like?</h3>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Cheese
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-          <label class="form-check-label" for="flexCheckChecked">
-            Pepperoni
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-          <label class="form-check-label" for="flexCheckChecked">
-            Pineapple
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-          <label class="form-check-label" for="flexCheckChecked">
-            Meatballs
-          </label>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="row">
-      <button type="button" class="btn btn-primary btn-lg">See the cost</button>
     </div>
   </div>
-
   </div>
+
 </body>
 
 </html>
